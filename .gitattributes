@@ -1,0 +1,2 @@
+# Preserve exact bytes (no newline normalization) for byte-level reproducibility
+* -text

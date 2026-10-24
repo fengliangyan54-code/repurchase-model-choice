@@ -1,0 +1,57 @@
+{
+  "settings": {
+    "LR_RFM": {
+      "C": 10
+    },
+    "LR_extended": {
+      "C": 10
+    },
+    "RF": {
+      "min_samples_leaf": 30
+    },
+    "HGB": {
+      "max_leaf_nodes": 7,
+      "l2_regularization": 10.0
+    },
+    "BGNBD": {
+      "penalty": 0.1
+    }
+  },
+  "supervised_validation_AP": {
+    "LR_RFM": 0.600223510585584,
+    "LR_extended": 0.6134172948535316,
+    "RF": 0.6233322988051678,
+    "HGB": 0.6204653611966146
+  },
+  "baseline_validation_AP": {
+    "Recency": 0.3712899539542399,
+    "Frequency": 0.53559493127178,
+    "Monetary": 0.5373392412446844,
+    "RFM_rank": 0.543116595669533,
+    "BGNBD": 0.6272313321630141
+  },
+  "selected_supervised": "RF",
+  "selected_baseline": "BGNBD",
+  "primary_metric": "equal-month AP",
+  "secondary_primary_capacity": 0.2,
+  "frozen_before_test_scoring": true,
+  "protocol_sha256": "acc746b6d9fe2d59519b9616c4a25cb7bdb58917a37e7d27e26fd15559cc627f",
+  "source_sha256": "f66670545111a0f0a1b6fd6701a6aace22aa2b5ad6889c97ac372f2caaab0fcc",
+  "BGNBD_fit_log": [
+    {
+      "penalty": 0.001,
+      "AP": 0.6229259092777952,
+      "status": "completed"
+    },
+    {
+      "penalty": 0.01,
+      "AP": 0.6244220694512899,
+      "status": "completed"
+    },
+    {
+      "penalty": 0.1,
+      "AP": 0.6272313321630141,
+      "status": "completed"
+    }
+  ]
+}
