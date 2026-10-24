@@ -11,7 +11,6 @@ configs/                  Frozen experimental configuration
   frozen_selection.json   Frozen model settings and selection outcomes
   protocol_v1.md          Analysis protocol (recorded before test metrics)
   extension_v2.md         Supplementary CDNOW specification
-  experiment_plan.csv     Experiment plan
 data/
   Online Retail.xlsx      Raw UCI Online Retail transactions (CC BY 4.0)
   provenance.json         Source URL, SHA256 and licence of the raw data
